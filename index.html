@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4eb9d04ce.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <!------------------------ Navigation-Bar----------------------------->
+        <nav class="flex px-5 font-poppins">
+            <a href="" class="nav-brand">Marketing-Boss</a>
+            <div class="nav-links" id="Nav-Links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">News</a>
+                    </li>
+                    <li>
+                        <a href="">Categories</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="banner">
+            <div class="banner-title">
+                <h1 class="text-xxl font-lob">Let's reduce carbon emission together</h1>
+                <h4 class="py-2 font-poppins">Taking sustainable to whole another level</h4>
+                <button class="main-btn">Read More</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!------------------- Second-Section ------------------>
+        <section class="second-section px-5">
+            <div class="section-title text-center py-10">
+                <h2 class="text-xl font-poppins">What Works We Can Do!</h2>
+                <p class="font-ubuntu">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi modi ipsum
+                    porro deserunt voluptatem?</p>
+            </div>
+            <div class="container py-5 mx-auto text-center">
+                <div class="grid cols-1 lg-col-4">
+                    <div class="bg-grey card-box">
+                        <div class="card py-5 px-5 text-left  btn-shadow">
+                            <span class="py-2 d-block c-blue"><i class="fa-solid fa-barcode fa-3x"></i></i></span>
+                            <h3 class="text-lg font-poppins">eCommerce</h3>
+                            <p class="font-ubuntu">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quas
+                                obcaecati beatae possimus voluptatibus?</p>
+                        </div>
+                    </div>
+                    <div class="bg-grey card-box">
+                        <div class="card py-5 px-5 text-left">
+                            <span class="py-2 d-block c-blue"><i class="fa-brands fa-paypal fa-3x"></i></span>
+                            <h3 class="text-lg font-poppins">Pure Codes</h3>
+                            <p class="font-ubuntu">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quas
+                                obcaecati beatae possimus voluptatibus?</p>
+                        </div>
+                    </div>
+                    <div class="bg-grey card-box">
+                        <div class="card py-5 px-5 text-left">
+                            <span class="py-2 d-block c-blue"><i class="fa-solid fa-gift fa-3x"></i></span>
+                            <h3 class="text-lg font-poppins">Responsiveness</h3>
+                            <p class="font-ubuntu">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quas
+                                obcaecati beatae possimus voluptatibus?</p>
+                        </div>
+                    </div>
+                    <div class="bg-grey card-box">
+                        <div class="card py-5 px-5 text-left">
+                            <span class="py-2 d-block c-blue"><i class="fa-solid fa-shield-halved fa-3x"></i></i></span>
+                            <h3 class="text-lg font-poppins">Best Quality</h3>
+                            <p class="font-ubuntu">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quas
+                                obcaecati beatae possimus voluptatibus?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------- Third-Section ------------------>
+        <section class="Third-Section conatiner py-5 mx-auto text-center">
+            <div class="grid cols-1 lg-col-2 px-5">
+                <div class="img-container">
+                    <img src="pic/col-3.jpg" alt="">
+                </div>
+                <div class="text-container text-left py-5">
+                    <span class="font-lob text-lg c-blue">About-Us</span>
+                    <h2 class="text-xl font-poppins">Neat and Clean Service</h2>
+                    <p class="font-ubuntu p-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                        ipsam sed laborum esse temporibus aliquam veritatis fuga nesciunt voluptates debitis,
+                        reprehenderit non quod neque nulla. Ratione expedita amet est illum?</p>
+                    <div class="btn py-2">
+                        <button class="third-btn font-ubuntu">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid cols-1 lg-col-2 py-10 px-5">
+                <div class="text-container text-left py-5">
+                    <span class="font-lob text-lg c-blue">Service We Provide</span>
+                    <h2 class="text-xl font-poppins">Our Service Focuses on IT</h2>
+                    <p class="font-ubuntu p-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, enim. A
+                        quam cupiditate, sapiente nesciunt dolor omnis reiciendis ex alias rerum quia eius debitis modi
+                        mollitia accusamus assumenda ea soluta!</p>
+                    <div class="btn py-2">
+                        <button class="third-btn font-ubuntu">Learn More</button>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="pic/feature.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!------------------- Fourth-Section ------------------>
+        <section class="Fourth-Section container py-5 mx-auto text-left">
+            <div class="grid lg-col-2">
+                <div class="cont px-5">
+                    <h2 class="text-xl font-poppins py-2">My Web Developing Skills</h2>
+                    <div class="my-list font-ubuntu">
+                        <p class="text-list py-1">1-HTML/CSS skills</p>
+                        <p class="text-list py-1">2-Analytical skills</p>
+                        <p class="text-list py-1">3-Responsive design skills</p>
+                        <p class="text-list py-1">4-JavaScript skills</p>
+                        <p class="text-list py-1">5-Interpersonal skills</p>
+                        <p class="text-list py-1">6-Testing and debugging skills</p>
+                        <p class="text-list py-1">7-Back-end basics</p>
+                        <p class="text-list py-1">8-Search engine optimization</p>
+                    </div>
+                </div>
+                <div class="con px-5 bg-blue text-white py-5">
+                    <h2 class="text-xl font-poppins">Eco Friendly <br>Practices</h2>
+                    <p class="font-ubuntu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, animi!
+                        Consectetur sequi similique exercitationem! Ad velit eveniet dicta enim dignissimos? Optio
+                        dolore at consectetur harum, sapiente illo, laboriosam quam accusantium unde dolorum vitae
+                        voluptatibus sint molestiae suscipit voluptates repellendus perferendis!</p>
+                    <p class="font-ubuntu py-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sunt
+                        tempore quisquam exercitationem, recusandae ipsam, unde dolore maxime incidunt dolorem
+                        temporibus! Enim, laudantium! Nemo.</p>
+                </div>
+            </div>
+        </section>
+        <!------------------- Fifth-Section ------------------>
+        <section class="Fifth-Section counting  container py-10 mx-auto">
+            <div class="counter-up flex font-poppins">
+                <div class="content container flex">
+                    <div class="box flex">
+                        <div class="icon"><i class="fa fa-award"></i></div>
+                        <div class="counter">19</div>
+                        <div class="text text-lg">Awards</div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-cart-shopping"></i></div>
+                        <div class="counter">250</div>
+                        <div class="text text-lg">Products</div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-heart"></i></div>
+                        <div class="counter">1000</div>
+                        <div class="text text-lg">Happy Clients</div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-user"></i></div>
+                        <div class="counter">80</div>
+                        <div class="text text-lg">Developers</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------- Sixth-Section ------------------>
+        <section class="Sixth-Section container py-10 mx-auto font-ubuntu">
+            <div class="grid cols-1 lg-col-3 px-5 text-white">
+                <div class="img-c">
+                    <img src="pic/arc.jpg" alt="">
+                </div>
+                <div class="text-cc bg-green">
+                    <div class="texts py-5 px-5">
+                        <h2 class="py-2" style="font-size:2rem ;">What We Do</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi unde, nisi fugiat atque dolore!</p>
+                    </div>
+                </div>
+                <div class="img-c">
+                    <img src="pic/arc-2.jpg" alt="">
+                </div>
+                <div class="text-c bg-gray">
+                    <div class="texts py-5 px-5">
+                        <h2 class="py-2" style="font-size:2rem ;">About Us</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatem corporis maiores laborum possimus cumque.</p>
+                    </div> 
+                </div>
+                <div class="img-c">
+                    <img src="pic/arc-3.jpg" alt="">
+                </div>
+                <div class="text-c bg-dark">
+                    <div class="texts py-5 px-5">
+                        <h2 class="py-2" style="font-size:2rem ;">Who We Are</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, ut. Neque odit adipisci quisquam ducimus!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!------------------- Footer-Section ------------------>
+    <footer class="py-10 text-white font-poppins">
+       <div class="footer-cont flex">
+        <h3 class="text-xl">Marketing Boss Inc.</h3>
+        <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facilis tenetur totam? Repudiandae dolore quis sit delectus officiis laborum alias.</p>
+        <ul class="social">
+            <li><a href="" class="fa fa-facebook"></a></li>
+            <li><a href="" class="fa fa-twitter"></a></li>
+            <li><a href="" class="fa fa-instagram"></a></li>
+            <li><a href="" class="fa fa-youtube"></a></li>
+        </ul>
+
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Content</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Articles</a></li>
+            </ul>
+        </div>
+       </div>
+       <div class="footer-bottom">
+        <p>Design by -- <a href="">Alfattah Ishti</a></p>
+       </div>
+    </footer>
+    <script src="app.js" type="text/JavaScript"></script>
+</body>
+
+</html>
